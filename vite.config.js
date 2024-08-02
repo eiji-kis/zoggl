@@ -1,4 +1,3 @@
-// vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -7,7 +6,10 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: () => 'everything.js',
+        entryFileNames: 'assets/zoggl_min.js',
+        chunkFileNames: 'assets/zoggl_min.js',
+        assetFileNames: 'assets/[name].[ext]',
+        manualChunks: undefined,
       },
     },
   },
