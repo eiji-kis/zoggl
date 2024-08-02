@@ -18,7 +18,7 @@
         rootDiv.id = 'zoggl-root';
         rootDiv.style.position = 'fixed';
         rootDiv.style.top = '0';
-        rootDiv.style.left = '0';
+        rootDiv.style.left = '30%';
         rootDiv.style.width = '30%';
         rootDiv.style.height = '100%';
         rootDiv.style.zIndex = '1000'; // Ensure it is on top of other elements
